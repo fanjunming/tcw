@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+
+#game-container {
+    text-align: center;
+}
+
+canvas {
+    background-color: #000;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+}
+
+#score {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+}

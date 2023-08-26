@@ -1,0 +1,90 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  line-height: 1.6;
+  background-color: #f9dbac;
+  margin: 0;
+}
+
+/* Header and Footer Styles */
+.header, .footer {
+  background-color: #ffa07a;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffc0cb;
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hero {
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-image {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.about, .services {
+  background-color: #ffe4b5;
+  padding: 40px;
+  margin: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+}

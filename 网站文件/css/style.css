@@ -7,7 +7,7 @@
 body {
   font-family: "微软雅黑", sans-serif;
   /* 这里修改背景图 */
-  background: url(https://api.xfyun.club/cos.php) no-repeat center;
+  background: url(../我的网站/网站文件/图片/3s.png) no-repeat center;
   background-size: cover;
   -webkit-background-attachment: fixed;
   background-attachment: fixed;
